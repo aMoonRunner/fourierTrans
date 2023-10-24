@@ -116,7 +116,7 @@ $X_{sin}[18]=7.07$
  <img  src="pictures/2023-10-19-11-44-39.png" width = "80%" height = "80%" alt="图片加载失败" />
 
 
-> 注意，这里$X_{sin}[k]=-X_{sin}[N-k]$,也是因为根据$sin$的对称性$sin(\theta)=sin(2\pi-\theta)$ $$sin(2\pi\times k\frac{n}{N})=-sin(2\pi\times(N-k)\frac{n}{N})$$
+> 注意，这里 $X_{sin}[k]=-X_{sin}[N-k]$ ,也是因为根据 $sin$ 的对称性 $sin(\theta)=sin(2\pi-\theta)$ $$sin(2\pi\times k\frac{n}{N})=-sin(2\pi\times(N-k)\frac{n}{N})$$
 
 这时，cos 项和 sin 项组合起来就能完整地表征原始信号了
 
