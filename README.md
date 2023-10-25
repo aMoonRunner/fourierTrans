@@ -2,7 +2,7 @@
  * @Author: aMoonRunner jhshe@foxmail.com
  * @Date: 2023-10-18 20:41:00
  * @LastEditors: aMoonRunner 147588157+aMoonRunner@users.noreply.github.com
- * @LastEditTime: 2023-10-25 12:01:48
+ * @LastEditTime: 2023-10-25 12:03:07
  * @FilePath: \fourierTrans\README.md
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
 -->
@@ -28,7 +28,7 @@ $$
 然后是离散傅里叶**反**变换的公式，原信号 $x(t)$ 的采样信号 $x(n)$ 可以表示为
 
 $$
-x[n]=\frac{1}{N}\sum_{k=0}^{N-1}{X[k]e^{j2\pi k(n/N)}}
+x[n]=\frac{1}{N}\sum_{k=0}^{N-1}{X[k]e^{j2\pi k(n/N)}},(0\leq n \leq N-1)
 $$
 
 ---
