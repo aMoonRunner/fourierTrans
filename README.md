@@ -190,7 +190,7 @@ $x_3$等于$X[0],X[1]···X[7]$分别旋转$0/8$个$3·2\pi$，$1/8$个$3·2\pi
 
 这些矢量我没有按照模值大小排列，按大小排个顺序，就跟网上看到的一样了，把这每一帧连起来播放，就是最终的动画
 
-
-<video width="320" height="240" controls>
+![](pictures/SigmaSymbol150vectors.gif)
+<!-- <video width="320" height="240" controls>
     <source src="pictures/SigmaSymbol150vectors.mp4" type="video/mp4">
-</video>
+</video> -->
