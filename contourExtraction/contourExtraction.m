@@ -23,8 +23,8 @@ clc; clear; clf; %close all;
 % hold off;
 
 % 画一个简单的爱心
-axis_x = [2 3 4 5 4 3 2 1 1.5]';
-axis_y = [4 3 4 3 2 1 2 3 3.5]';
+axis_x = [2 3 4 5 4 3 2 1]';
+axis_y = [4 3 4 3 2 1 2 3]';
 fig = figure(1);
 fig.Position = [-1315, 751, 560, 420];
 plot(axis_x, axis_y, 'k--', 'linewidth', 2.5);
@@ -44,7 +44,7 @@ N = length(X);
 % points1 = scatter(real(X), imag(X));
 % points1.Marker = "*";
 
-n = 0;
+n = 7;
 k = (0:1:N - 1);
 k = k';
 Xn = X .* exp(1i * 2 * pi .* n .* k ./ N);
@@ -78,3 +78,5 @@ end
 for i = 1:1:length(pos)
     rectangle('Position', pos(i, :), 'Curvature', [1 1], 'LineWidth', 1, 'LineStyle', '--');
 end
+
+copygraphics(gcf,"ContentType","image","Resolution",100);

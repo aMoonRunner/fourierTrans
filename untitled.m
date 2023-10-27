@@ -7,4 +7,4 @@ hold on;
 line_y2=plot(x,y2,"LineWidth",2);
 line_y2.Marker="o";
 line_y2.MarkerIndices=(1:50:length(y2));
-copygraphics(gcf,"ContentType","image","Resolution",300);
+copygraphics(gcf,"ContentType","image","Resolution",100);

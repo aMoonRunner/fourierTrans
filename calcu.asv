@@ -1,9 +1,9 @@
 clc;clear;close all;
 N=20;
 n=(0:1:N-1);
-k=2;
-xn=cos(4.*pi.*(n./N)+pi);
-yn=cos(2.*pi.*k.*(n./N));
+k=0;
+xn=cos(4.*pi.*(n./N));
+yn=sin(2.*pi.*k.*(n./N))+1;
 X_1_array=xn.*yn;
 X_1_sumArray=X_1_array;
 for i=2:1:length(X_1_sumArray)
