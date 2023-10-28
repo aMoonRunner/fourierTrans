@@ -249,7 +249,7 @@ f(x)=a_0+\sum^{\infty}_{n=1}{\left(a_{n}cos({\frac{2\pi n}{T}x})+b_{n}sin({\frac
 $$
 
 $$
-f(x)=a_0+\sum_{n=0}^{N-1}{x[n]e^{-j2\pi k (n/N)}},(0\leq k \leq N-1)
+f(x)=a_0+\sum_{n=1}^{\infty}{\left(a_{n}cos({\frac{2\pi n}{T}x})+b_{n}sin({\frac{2\pi n}{T}x})\right)},(0\leq k \leq N-1)
 $$
 
 
