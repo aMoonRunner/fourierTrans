@@ -205,6 +205,12 @@ $$
 x_n = \frac{1}{N}(X_0\cdot e^{i2\pi n \frac{0}{N}} +X_1\cdot e^{i2\pi n \frac{1}{N}} + X_2\cdot e^{i2\pi n \frac{2}{N}} +  X_3\cdot e^{i2\pi n \frac{3}{N}} + X_4\cdot e^{i2\pi n \frac{4}{N}} + X_5\cdot e^{i2\pi n \frac{5}{N}} + X_6\cdot e^{i2\pi n \frac{6}{N}} + X_7\cdot e^{i2\pi n \frac{7}{N}})
 $$
 
+
+$$
+f(x)=a_0+\sum _{{n=1}}^{\infty}\left(a_{n}cos({\frac{2\pi n}{T}x})+b_{n}sin({\frac{2\pi n}{T}x})\right),a_0\in\mathbb{R}
+$$
+
+
 而 $e^{i\theta}$ 相当于绕着圆周旋转
 
 $x_0$ 等于 $X[0],X[1]···X[7]$ 分别旋转 $0/8$ 个 $0·2\pi$ ， $1/8$ 个 $0·2\pi$ ，··· $7/8$ 个 $0·2\pi$ ，求和取平均
@@ -241,6 +247,8 @@ $x_3$ 等于 $X[0],X[1]···X[7]$ 分别旋转 $0/8$ 个 $3·2\pi$ ， $1/8$ �
 参考与引用
 
 链接: [从傅立叶级数到傅立叶变换](https://www.matongxue.com/madocs/712/)
+
+链接
 
 $$
 f(x)=a_0+\sum _{{n=1}}^{\infty}\left(a_{n}cos({\frac{2\pi n}{T}x})+b_{n}sin({\frac{2\pi n}{T}x})\right),a_0\in\mathbb{R}
