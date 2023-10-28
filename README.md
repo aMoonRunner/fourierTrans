@@ -239,11 +239,11 @@ $x_3$ 等于 $X[0],X[1]···X[7]$ 分别旋转 $0/8$ 个 $3·2\pi$ ， $1/8$ �
 ##  3. <a name='3'></a>傅里叶级数
 
 参考与引用
-链接: [从傅立叶级数到傅立叶变换](https://www.matongxue.com/madocs/712/)
 
+链接: [从傅立叶级数到傅立叶变换](https://www.matongxue.com/madocs/712/)
 
 $$
 f(x)=a_0+\sum _{{n=1}}^{\infty}\left(a_{n}cos({\frac{2\pi n}{T}x})+b_{n}sin({\frac{2\pi n}{T}x})\right),a_0\in\mathbb{R}
 $$
 
-@import "frqPlot.m"
+ @import "frqPlot.m"
