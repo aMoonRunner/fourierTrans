@@ -245,11 +245,7 @@ $x_3$ 等于 $X[0],X[1]···X[7]$ 分别旋转 $0/8$ 个 $3·2\pi$ ， $1/8$ �
 傅里叶级数的公式为：
 
 $$
-f(x)=a_0+\sum^{\infty}_{n=1}{\left(a_{n}cos({\frac{2\pi n}{T}x})+b_{n}sin({\frac{2\pi n}{T}x})\right)},a_0\in\mathbb{R}
-$$
-
-$$
-f(x)=a_0+\sum_{n=1}^{\infty}{\left(a_{n}cos({\frac{2\pi n}{T}x})+b_{n}sin({\frac{2\pi n}{T}x})\right)},(0\leq k \leq N-1)
+f(x)=a_0+\sum_{n=1}^{\infty}{\left(a_{n}cos({\frac{2\pi n}{T}x})+b_{n}sin({\frac{2\pi n}{T}x})\right)},a_0\in\mathbb{R}
 $$
 
 
