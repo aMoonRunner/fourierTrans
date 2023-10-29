@@ -84,7 +84,7 @@ $$x[n]=cos(4\pi\times\frac{n}{N})$$
 
 $X[1]$ 计算结果如下, $X_{cos}[1]=0$
 
-![图片加载失败](pictures/2023-10-18-22-34-40.png)
+<div align=center><img  src="pictures/2023-10-18-22-34-40.png" alt="图片加载失败" /></div>
 
 $X[2]$计算结果如下, $X_{cos}[2]=10$
 
