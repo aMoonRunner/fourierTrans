@@ -1,15 +1,15 @@
-<style>
+<!-- <style>
       img {
         display: block;
         margin-left: auto;
         margin-right: auto;
         width:300px;
       }
-</style>
+</style> -->
 
 # 傅里叶变换学习笔记
 
-<img  src="pictures/2023-10-18-22-34-40.png"   alt="图片加载失败" />
+<img style=" display: block;margin-right: auto ; margin-left: auto;width: 300px;" src="./pictures/2023-10-18-22-34-40.png" />
 
 目录
 
