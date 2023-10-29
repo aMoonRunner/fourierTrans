@@ -1,9 +1,23 @@
+<style>
+      img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width:300px;
+      }
+</style>
+
 # 傅里叶变换学习笔记
+
+<img  src="pictures/2023-10-18-22-34-40.png"   alt="图片加载失败" />
+
 目录
+
 <!-- vscode-markdown-toc -->
-* 1. [离散傅里叶变换](#)
-* 2. [傅里叶变换画图](#-1)
-* 3. [标题3](#3)
+
+- 1. [离散傅里叶变换](#)
+- 2. [傅里叶变换画图](#-1)
+- 3. [标题 3](#3)
 
 <!-- vscode-markdown-toc-config
 	numbering=true
@@ -11,8 +25,7 @@
 	/vscode-markdown-toc-config -->
 <!-- /vscode-markdown-toc -->
 
-
-##  1. <a name=''></a>离散傅里叶变换
+## 1. <a name=''></a>离散傅里叶变换
 
 创建时间 _2023 年 10 月 18 日_
 
@@ -84,24 +97,24 @@ $$x[n]=cos(4\pi\times\frac{n}{N})$$
 
 $X[1]$ 计算结果如下, $X_{cos}[1]=0$
 
-<div align=center><img  src="pictures/2023-10-18-22-34-40.png" alt="图片加载失败" /></div>
+<img  src="pictures/2023-10-18-22-34-40.png"  height = "250" alt="图片加载失败" />
 
 $X[2]$计算结果如下, $X_{cos}[2]=10$
 
-![图片加载失败](pictures/2023-10-18-22-53-38.png)
+<div align=center><img  src="pictures/2023-10-18-22-53-38.png"  height = "250" alt="图片加载失败" /></div>
 
 $X[3]$计算结果如下, $X_{cos}[3]=0$
 
-![图片加载失败](pictures/2023-10-18-22-53-07.png)
+<div align=center><img  src="pictures/2023-10-18-22-53-07.png"  height = "250" alt="图片加载失败" /></div>
 
 一直到 $X_{cos}[19]$ , $X_{cos}[19]=0$
 
-![图片加载失败](pictures/2023-10-18-22-51-59.png)
+<div align=center><img  src="pictures/2023-10-18-22-51-59.png"  height = "250" alt="图片加载失败" /></div>
 
 > 非常奇怪，k=19 与 k=1 的效果是一模一样的,这是因为根据 $cos$ 的对称性 $cos(\theta)=cos(2\pi-\theta)$ $$cos(2\pi\times k\frac{n}{N})=cos(2\pi\times(N-k)\frac{n}{N})$$
 > 也可以这么理解，低频信号与高频信号是有交点的， $cos(2\pi\times 1t)$ 与 $cos(2\pi\times 19t)$ 有很多交点，但是离散化之后，又恰巧把离散点取到了这些交点上，无法分辨这些点到底是哪条线上的，这也从另一个角度说明了为啥傅里叶变换是对称的，而且只有前面一半的是有用的，因为 k 取 19 时，无法判断到底时 1 触发的还是 19 触发的，干脆舍弃不用
 >
-> ![图片加载失败](pictures/2023-10-27-17-26-39.png)
+> <div align=center><img  src="pictures/2023-10-27-17-26-39.png"  height = "250" alt="图片加载失败" /></div>
 
 只有当 $x[n]$ 中有此频率成分时， $X_{cos}[k]$ 才不为 0，剩下的，积分算出来全是 0
 
@@ -116,7 +129,7 @@ $$x[n]=cos(4\pi\times\frac{n}{N})$$
 
 k 对应的频率搞清楚了，那 $X_{cos}[k]$ 的值表示什么呢？此频率分量真正的幅值为“ $\frac{2}{N}X[k]$ ”,对于直流分量“ $\frac{1}{N}X_{cos}[0]$ ”
 
-![图片加载失败](pictures/2023-10-27-17-33-05.png)
+<div align=center><img  src="pictures/2023-10-27-17-33-05.png"  height = "250" alt="图片加载失败" /></div>
 
 至于“1/N,2/N”是怎么来的，看了有的教程，说太简单就不推导了，资质愚钝，不能理解
 
@@ -165,7 +178,7 @@ $$actan\frac{-(-0.707)}{0.707}=\pi/4$$
 
 ---
 
-##  2. <a name='-1'></a>傅里叶变换画图
+## 2. <a name='-1'></a>傅里叶变换画图
 
 **_当傅里叶拿起画笔_**
 
@@ -235,8 +248,7 @@ $x_3$ 等于 $X[0],X[1]···X[7]$ 分别旋转 $0/8$ 个 $3·2\pi$ ， $1/8$ �
 
 ![](pictures/SigmaSymbol150vectors.gif)
 
-
-##  3. <a name='3'></a>傅里叶级数
+## 3. <a name='3'></a>傅里叶级数
 
 参考与引用
 
