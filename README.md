@@ -1,15 +1,4 @@
-<!-- <style>
-      img {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width:300px;
-      }
-</style> -->
-
 # 傅里叶变换学习笔记
-
-<img style=" display: block;margin-right: auto ; margin-left: auto;width: 300px;" src="./pictures/2023-10-18-22-34-40.png" />
 
 目录
 
@@ -97,7 +86,7 @@ $$x[n]=cos(4\pi\times\frac{n}{N})$$
 
 $X[1]$ 计算结果如下, $X_{cos}[1]=0$
 
-<img  src="pictures/2023-10-18-22-34-40.png"  height = "250" alt="图片加载失败" />
+<div align=center><img  src="pictures/2023-10-18-22-34-40.png"  height = "250" alt="图片加载失败" /></div>
 
 $X[2]$计算结果如下, $X_{cos}[2]=10$
 
